@@ -13,3 +13,16 @@ ilist = ["men", "sen", "biz"]  # List yarat
 ilist.remove("men")  # "men" elementini sil
 ilist.append("size")  # Siyahıya "size" əlavə et
 print(ilist)
+
+# Verilmiş şərt daxilində input yaz. Daxil edilən 2 dəyər dən biri digərindən böyükdürsə onda 1 ci dəyərdən 2 ci dəyəri çıx və caavbı yazdır
+number1=int(input("Birinci ededi daxil edin: ")) #birinci eded daxil edilir
+number2=int(input("İkinci ededi daxil edin: ")) #ikinci eded daxil edilir
+
+if number1>number2: #birinci ededin ikinci ededden boyuk olub olmadigini yoxlayir
+    print(f"birinci eded yeni: {number1} boyukdur ikinci ededden yeni: {number2}\n {number1} > {number2}")
+
+elif number1<number2: #ikinci ededin birinci ededden boyuk olub olmadigini yoxlayir
+    print(f"ikinci eded yeni: {number2} boyukdur birinci ededden yeni: {number1}\n {number2} > {number1}")
+
+else:
+    print(f"Ededler beraberdir")
