@@ -35,3 +35,5 @@ def Func(): # function yaradilir
     result=number1+number2+number3
     return result
 print(f" ededlerin cemi: {Func()}")
+
+print("task bitdi")
