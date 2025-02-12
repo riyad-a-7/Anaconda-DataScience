@@ -26,3 +26,12 @@ elif number1<number2: #ikinci ededin birinci ededden boyuk olub olmadigini yoxla
 
 else:
     print(f"Ededler beraberdir")
+
+# Funksiya yaz. Funksiya daxilində 3 input yaz sonda bu inputlar toplanacaq və result olarq cavab qaytaracaq
+def Func(): # function yaradilir
+    number1 = int(input("Birinci ededi daxil edin: "))  # birinci eded daxil edilir
+    number2 = int(input("İkinci ededi daxil edin: "))  # ikinci eded daxil edilir
+    number3 = int(input("Üçüncü ededi daxil edin: "))  # üçüncü eded daxil edilir
+    result=number1+number2+number3
+    return result
+print(f" ededlerin cemi: {Func()}")
