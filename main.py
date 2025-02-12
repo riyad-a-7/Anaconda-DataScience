@@ -6,9 +6,5 @@ print(f"""
     {type(number)},
     {type(float_number)},
     {type(my_list)}
-=======
-    {dir(number)},
-    {dir(float_number)},
-    {dir(my_list)}
->>>>>>> 216c9506c2d06d7d939321d6dafdde66dff212df
+
     """)
